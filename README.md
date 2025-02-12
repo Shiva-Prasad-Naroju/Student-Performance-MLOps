@@ -1,5 +1,4 @@
-# End to end Machine Learning Project
-# 🎯 Student Performance Indicator
+# 🎯 End to End Student Performance Indicator ML project
 
 ## 📌 Overview
 This project analyzes and predicts student performance based on socio-economic and academic factors using ML techniques.
