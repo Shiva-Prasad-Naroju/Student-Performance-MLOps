@@ -14,9 +14,5 @@ dill
 # It allows changes in the source code to be reflected without reinstalling.
 # Useful for local development when working with a package that has setup.py or pyproject.toml.
 
-=======
 Flask
 # -e .
->>>>>>> d0451c0 (Prediction pipeline and webapp completed)
-
-
