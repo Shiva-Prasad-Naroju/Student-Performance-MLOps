@@ -7,7 +7,11 @@ catboost
 scikit-learn
 xgboost
 dill
-Flask
-# -e .
+
+# -e . 
+# The '-e .' in requirements.txt installs the package in editable mode.
+# It allows changes in the source code to be reflected without reinstalling.
+# Useful for local development when working with a package that has setup.py or pyproject.toml.
+
 
 
