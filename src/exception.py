@@ -2,7 +2,7 @@ import sys # Importing sys module to work with system-specific parameters and fu
 from src.logger import logging # Importing logging module from src.logger for logging errors
 
 def error_message_detail(error,error_detail:sys):
-     """
+    """
     Extracts detailed error message including the script name, line number, and error description.
 
     Parameters:
@@ -12,7 +12,6 @@ def error_message_detail(error,error_detail:sys):
     Returns:
     str: Formatted error message containing script name, line number, and error message.
     """
-    
     _,_,exc_tb = error_detail.exc_info() # Extracts traceback object of the exception
     file_name = exc_tb.tb_frame.f_code.co_filename  # Gets the file name where the error occurred
 
@@ -22,6 +21,7 @@ def error_message_detail(error,error_detail:sys):
     )
     return error_message
 
+# a
 
 class CustomException(Exception):
     def __init__(self,error_message,error_detail:sys):
