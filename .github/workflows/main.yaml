@@ -89,10 +89,7 @@ jobs:
       - name: Pull latest images
         run: |
          docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
-      # - name: Pull Docker Image from ECR
-      #   run: docker pull 575108952289.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/studentperformance:latest
-
-      
+           
          
       # - name: Stop and remove  container if running
       #   run: |
