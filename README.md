@@ -45,7 +45,7 @@ Understanding how student performance (**test scores**) is influenced by:
 ## 🛠 **Technologies Used**  
 🐍 **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)  
 📓 **Jupyter Notebook** – Model training & analysis  
-🤖 **Machine Learning** (Linear Regression, Decision Trees, Random Forest, etc.)  
+🤖 **Machine Learning** (LinearRegression, RandomForestRegressor, GradientBoostingRegressor, KNeighborsRegressor, XGBRegressor, CatBoostRegressor, AdaBoostRegressor  etc.)  
 🌍 **Flask** – Web interface for user-friendly predictions  
 ☁ **AWS (EC2, ECR)** – Cloud deployment & containerized infrastructure  
 ⚡ **GitHub Actions** – CI/CD automation for deployment  
