@@ -3,8 +3,6 @@
 ## 📌 **Overview**  
 This project analyzes and predicts **student performance in Mathematics** based on **socio-economic and academic factors** using **Machine Learning techniques** and **deploys** it using **Flask, AWS, and GitHub Actions** for CI/CD.  
 
----
-
 ## 🔄 **Project Life Cycle**  
 ✅ **Understanding the Problem**  
 📊 **Data Collection & Checks**  
@@ -13,8 +11,6 @@ This project analyzes and predicts **student performance in Mathematics** based 
 🤖 **Model Training & Evaluation**  
 🏆 **Choosing the Best Model**  
 🚀 **Deployment with Flask & AWS**  
-
----
 
 ## ❓ **Problem Statement**  
 Understanding how student performance (**test scores**) is influenced by:  
@@ -25,7 +21,6 @@ Understanding how student performance (**test scores**) is influenced by:
 🍽 **Lunch Type**  
 📚 **Test Preparation Course**  
 
----
 
 ## 📂 **Dataset Features**  
 📌 **Categorical Features:**  
@@ -33,8 +28,6 @@ Understanding how student performance (**test scores**) is influenced by:
 
 📌 **Numerical Features:**  
 - **Math Score**, **Reading Score**, **Writing Score**  
-
----
 
 ## 🚀 **Steps Involved**  
 1️⃣ **Data Collection & Preprocessing** – Handling missing values, duplicates, outliers  
@@ -55,15 +48,12 @@ Understanding how student performance (**test scores**) is influenced by:
 ☁ **AWS (EC2, ECR)** – Cloud deployment & containerized infrastructure  
 ⚡ **GitHub Actions** – CI/CD automation for deployment  
 
----
 
 ## 🎯 **Expected Outcomes**  
 📌 **Key insights** into factors affecting student performance  
 📌 **Accurate ML model** for predicting student math scores  
 📌 **Web app** for real-time score prediction  
 📌 **Cloud-deployed solution** for accessibility  
-
----
 
 ## 📩 **Contact**  
 📧 **Shiva Prasad Naroju** - shivanaroju26@gmail.com  
