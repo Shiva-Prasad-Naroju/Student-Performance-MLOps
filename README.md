@@ -3,6 +3,7 @@
 ## 📌 **Overview**  
 This project analyzes and predicts **student performance in Mathematics** based on **socio-economic and academic factors** using **Machine Learning techniques** and **deploys** it using **Flask, AWS, and GitHub Actions** for CI/CD.  
 
+
 ## 🔄 **Project Life Cycle**  
 ✅ **Understanding the Problem**  
 📊 **Data Collection & Checks**  
@@ -11,6 +12,7 @@ This project analyzes and predicts **student performance in Mathematics** based 
 🤖 **Model Training & Evaluation**  
 🏆 **Choosing the Best Model**  
 🚀 **Deployment with Flask & AWS**  
+
 
 ## ❓ **Problem Statement**  
 Understanding how student performance (**test scores**) is influenced by:  
@@ -29,6 +31,7 @@ Understanding how student performance (**test scores**) is influenced by:
 📌 **Numerical Features:**  
 - **Math Score**, **Reading Score**, **Writing Score**  
 
+
 ## 🚀 **Steps Involved**  
 1️⃣ **Data Collection & Preprocessing** – Handling missing values, duplicates, outliers  
 2️⃣ **EDA** – Visualizing trends & correlations 📊  
@@ -38,7 +41,6 @@ Understanding how student performance (**test scores**) is influenced by:
 6️⃣ **Web Interface Development** – Flask-based UI for easy predictions  
 7️⃣ **Deployment** – Hosted on **AWS EC2 with ECR & GitHub Actions for CI/CD**  
 
----
 
 ## 🛠 **Technologies Used**  
 🐍 **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)  
