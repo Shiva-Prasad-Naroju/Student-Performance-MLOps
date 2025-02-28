@@ -52,7 +52,7 @@ jobs:
         id: build-image
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
+          ECR_REPOSITORY: studentperformance
           IMAGE_TAG: latest
         run: |
           # Build a docker container and
@@ -60,7 +60,11 @@ jobs:
           # be deployed to ECS.
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-          echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+          
+          # echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+          
+          # Use GITHUB_OUTPUT instead of set-output (Deprecated)
+          echo "image=$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" >> "$GITHUB_OUTPUT"
           
           
   Continuous-Deployment:
@@ -85,6 +89,7 @@ jobs:
       - name: Pull latest images
         run: |
          docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
+           
          
       # - name: Stop and remove  container if running
       #   run: |
