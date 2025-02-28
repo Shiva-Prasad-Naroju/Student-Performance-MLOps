@@ -1,7 +1,7 @@
 # 🎯 End to End Student Performance Indicator ML project
 
 ## 📌 Overview
-This project analyzes and predicts student performance based on socio-economic and academic factors using ML techniques.
+This project analyzes and predicts student performance in Maths based on socio-economic and academic factors using ML techniques.
 
 ## 🔄 Project Life Cycle
 1. 📌 Understanding the Problem
@@ -37,11 +37,7 @@ Understanding how student performance (test scores) is influenced by:
 - 
 ## 🎯 Expected Outcomes
 - Key insights on factors affecting student performance
-- Strong predictors of test scores
 - Accurate predictive model deployment
-
-## 🤝 Contributing
-Contributions welcome! Submit PRs or report issues.
 
 ## 📩 Contact
 📧 **Shiva Prasad Naroju** - shivanaroju26@gmail.com
