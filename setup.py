@@ -30,5 +30,8 @@ setup(
     author = 'Shiva Prasad Naroju',
     author_email = 'shivanaroju26@gmail.com',   # Contact email of the author
     packages = find_packages(),                 # Automatically discovers all packages in the project
-    install_requires = get_requirements('requirements.txt') # Fetch dependencies from requirements.txt
+    install_requires = get_requirements('requirements.txt'), # Fetch dependencies from requirements.txt
+    long_description = open("README.md", "r").read(),  # Reads description from README
+    long_description_content_type = "text/markdown",
+    url = "https://github.com/Shiva-Prasad-Naroju/Student-Performance-MLOps.git"
 )
