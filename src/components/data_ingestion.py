@@ -13,6 +13,9 @@ from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
 
 @dataclass
+# @dataclass automatically generates __init__, __repr__, and __eq__ methods,  
+# reducing boilerplate code and making the class cleaner and more readable.
+# when we use the elements for temporary purpose we use this dataclass
 class DataIngestionConfig:
     # Define file paths for raw, train, and test data
     train_data_path: str=os.path.join('artifacts','train.csv')
