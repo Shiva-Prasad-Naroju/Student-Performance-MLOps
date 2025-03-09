@@ -14,6 +14,7 @@ def get_requirements(file_path:str)->List[str]:
     with open(file_path) as file_obj:
         requirements = file_obj.readlines()
         
+        
         # Remove newline characters from each requirement
         requirements = [req.replace("\n","") for req in requirements]
         
