@@ -10,7 +10,13 @@ class PredictPipeline:
 
     def predict(self,features):
         try:
+            # Creates a file path pointing to "artifacts/model.pkl"
             model_path = os.path.join("artifacts","model.pkl")
+
+            # Above code defines the file path for storing the preprocessor model and
+            # does not create the file.
+            
+            # Creates a file path pointing to "artifacts/preprocessor.pkl"
             preprocessor_path = os.path.join('artifacts','preprocessor.pkl')
 
             print("Before Loading")
