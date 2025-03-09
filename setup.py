@@ -26,9 +26,9 @@ def get_requirements(file_path:str)->List[str]:
 # Setup configuration for the ML project package
 setup(
     name = 'MLproject',
-    version = '0.0.1', # Version of the package
+    version = '0.0.1',                          # Version of the package
     author = 'Shiva Prasad Naroju',
-    author_email = 'shivanaroju26@gmail.com', # Contact email of the author
-    packages = find_packages(), # Automatically discovers all packages in the project
+    author_email = 'shivanaroju26@gmail.com',   # Contact email of the author
+    packages = find_packages(),                 # Automatically discovers all packages in the project
     install_requires = get_requirements('requirements.txt') # Fetch dependencies from requirements.txt
 )
