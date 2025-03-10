@@ -84,7 +84,7 @@ if __name__ == "__main__":
 # Working process:
 # We manually provide the dataset path inside the function initiate_data_ingestion()
 
-# initiate_data_ingestion() this function will create splits the data and three files 
+# initiate_data_ingestion() this function will create and splits the data into three files 
 # raw_data, train.csv and test.csv in the artifacts folder
 
 # The function will returns the train.csv and test.csv
