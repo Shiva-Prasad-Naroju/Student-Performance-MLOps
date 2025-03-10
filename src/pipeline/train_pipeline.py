@@ -1,5 +1,5 @@
 # Since we orchestrated the entrire workflow in the data_ingestion.py module itself, its redundant to
-# use this module or else we can also make of this module.
+# use this module or else we can also make use of this module.
 
 
 
