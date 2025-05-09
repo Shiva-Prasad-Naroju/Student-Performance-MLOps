@@ -6,11 +6,17 @@ This project analyzes and predicts **student performance in Mathematics** based 
 
 ## 🔄 **Project Life Cycle**  
 ✅ **Understanding the Problem**  
+
 📊 **Data Collection & Checks**  
+
 📈 **Exploratory Data Analysis (EDA)**  
+
 🛠 **Data Pre-Processing**  
+
 🤖 **Model Training & Evaluation**  
+
 🏆 **Choosing the Best Model**  
+
 🚀 **Deployment with Flask & AWS**  
 
 
