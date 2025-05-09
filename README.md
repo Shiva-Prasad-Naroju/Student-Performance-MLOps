@@ -50,6 +50,9 @@ Understanding how student performance (**test scores**) is influenced by:
 ☁ **AWS (EC2, ECR)** – Cloud deployment & containerized infrastructure  
 ⚡ **GitHub Actions** – CI/CD automation for deployment  
 
+## Result:
+**"The CatBoost Regressor achieved an R² score of 0.85 on the test dataset, indicating that the model explains 85% of the variance in unseen data and 0.95 on the train dataset."**
+
 
 ## 🎯 **Expected Outcomes**  
 📌 **Key insights** into factors affecting student performance  
